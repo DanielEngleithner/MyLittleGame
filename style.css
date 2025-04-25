@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: darkblue;
     max-width: 700px;
     margin: 0 auto;
     font-family: sans-serif;
@@ -23,6 +23,12 @@ h1 {
     color: yellow;
 }
 
+h2{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: yellow;
+}
+
 p {
     text-decoration: none;
     color: #0000FF;
@@ -34,10 +40,10 @@ p {
     top: 20px;
     color: yellow;
     font-family: 'Permanent Marker', cursive;
-    font-size: 14px;
+    font-size: 40px;
     z-index: 100;
 }
 
 canvas {
-    border: 2px solid red;
+
 }
