@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+#pacman {
+    width: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+#shim {
+    font-family: 'Permanent Marker', cursive;
+    position: absolute;
+    visibility: hidden;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: yellow;
+}
+
+p {
+    text-decoration: none;
+    color: #0000FF;
+}
+
+.highscore {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    color: yellow;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 14px;
+    z-index: 100;
+}
+
+canvas {
+    border: 2px solid red;
+}
